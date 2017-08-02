@@ -50,6 +50,7 @@ section {
 
 .section-1 .inner {
   width: 640px;
+  max-width: calc(100% - 24px);
   margin: 0 auto;
   padding: 48px;
   background: rgba(255,255, 255, .75);
@@ -60,6 +61,7 @@ section {
 .wrapper {
   margin: 0 auto;
   width: 940px;
+  max-width: calc(100% - 24px);
 }
 
 footer {

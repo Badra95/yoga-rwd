@@ -48,3 +48,8 @@ quote {
 .img-float + p {
   margin: 0 0 24px;
 }
+
+img {
+  max-width: calc(100% - 24px);
+  height: auto;
+}
